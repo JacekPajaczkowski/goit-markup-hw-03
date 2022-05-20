@@ -1,3 +1,3 @@
-# goit-markup-hw-01
-Homework1
-Zadanie Domowe Techskills nr 1
+# goit-markup-hw-02
+Homework2
+Zadanie Domowe Techskills nr 2
