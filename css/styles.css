@@ -1,4 +1,7 @@
 .logo-link {
+  
+  font-weight: 700;
+  color: #111;
   text-decoration: none;
 }
 .title {
@@ -9,4 +12,8 @@
 }
 .headline1 {
   color: #ffffff;
+}
+.list1 {
+  font: Roboto;
+  font-weight: 500;
 }
