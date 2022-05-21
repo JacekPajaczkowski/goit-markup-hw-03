@@ -1,5 +1,5 @@
 .logo-link {
-  
+  font-family: raleway;
   font-weight: 700;
   color: #111;
   text-decoration: none;
@@ -9,11 +9,18 @@
 }
 .section1 {
   background-color: #2f303a;
+  text-align: center;
 }
 .headline1 {
   color: #ffffff;
 }
 .list1 {
-  font: Roboto;
+  text-decoration: none;
+  font-family: Roboto;
   font-weight: 500;
+  color: #212121;
+  list-style: none;
+}
+.list1 :hover{
+  color: #2196f3;
 }
