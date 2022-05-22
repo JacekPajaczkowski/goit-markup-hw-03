@@ -1,5 +1,27 @@
+body {
+  margin: 0;
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+  color: #757575;
+  background: #ffffff;
+  font-family: "Roboto", "raleway", sans-serif;
+  font-weight: 400;
+}
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffffff;
+}
 .title {
   color: #2196f3;
+}
+.headline4 {
+  color: #000;
 }
 .logo-link {
   position: absolute;
@@ -12,10 +34,8 @@
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-
+  line-height: 1;
   letter-spacing: 0.03em;
-
   color: #000;
   text-decoration: none;
 }
@@ -25,6 +45,7 @@
   height: 600px;
   left: 0px;
   top: 80px;
+
   background: #2f303a;
 }
 .headline1 {
@@ -32,13 +53,11 @@
   width: 696px;
   height: 120px;
   left: 452px;
-  top: 280px;
+  top: 170px;
 
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -52,20 +71,38 @@
   height: 16px;
   left: 453px;
   top: 32px;
-  font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1;
   letter-spacing: 0.02em;
   list-style: none;
   color: #212121;
   text-decoration: none;
+
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  display: table;
 }
-li {
+.list1 li {
+  text-decoration: none;
+  display: table-cell;
+}
+.link {
   float: left;
+  text-align: center;
+  text-decoration: none;
+  color: #212121;
 }
+
 .list1 :hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.list1 :focus {
   color: #2196f3;
   text-decoration: none;
 }
@@ -74,19 +111,12 @@ li {
   width: 200px;
   height: 50px;
   left: 700px;
-  top: 430px;
+  top: 350px;
+
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-
-  background: #ffffff;
+  cursor: pointer;
 }
 .mail {
   position: absolute;
@@ -95,14 +125,29 @@ header {
   left: 1078px;
   top: 32px;
 
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1;
   letter-spacing: 0.02em;
-
+  text-decoration: none;
+  color: #757575;
+}
+.mail:hover {
   color: #2196f3;
+  text-decoration: none;
+}
+.mail:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+.mail1:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.mail1:focus {
+  color: #2196f3;
+  text-decoration: none;
 }
 .phone {
   position: absolute;
@@ -111,21 +156,36 @@ header {
   left: 1263px;
   top: 32px;
 
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1;
   letter-spacing: 0.02em;
 
   color: #757575;
+  text-decoration: none;
+}
+.phone:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.phone:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+.phone1:hover {
+  color: #2196f3;
+  text-decoration: none;
+}
+.phone1:focus {
+  color: #2196f3;
+  text-decoration: none;
 }
 .button-text1 {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -134,10 +194,52 @@ header {
 }
 .section2 {
   position: absolute;
-  width: 1170px;
+  width: 1600px;
   height: 101px;
   left: 215px;
   top: 774px;
+}
+.headline2 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+.list2 {
+  list-style: none;
+  text-align: left;
+  display: table;
+}
+.list2 li {
+  text-decoration: none;
+  display: table-cell;
+}
+.headline3 {
+  color: #000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+.list3 {
+  list-style: none;
+  display: table;
+}
+.list3 li {
+  text-decoration: none;
+  display: table-cell;
+}
+.list4 {
+  text-align: center;
+  list-style: none;
+  display: table;
+}
+.list4 li {
+  text-decoration: none;
+  display: table-cell;
+}
+.figcaption {
+  text-align: center;
+  color: #000;
 }
 .section3 {
   position: absolute;
@@ -155,7 +257,7 @@ header {
 
   background: #f5f4fa;
 }
-footer {
+.footer1 {
   position: absolute;
   width: 1600px;
   height: 252px;
@@ -163,4 +265,138 @@ footer {
   top: 2097px;
 
   background: #2f303a;
+}
+.footer-adress {
+  position: absolute;
+  width: 246px;
+  height: 81px;
+  left: 215px;
+  top: 111px;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.mail1 {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.phone1 {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.logo-link1 {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 60px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-decoration: none;
+}
+.title1 {
+  color: #fff;
+}
+.section1-1 {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
+}
+.list1-2 {
+  display: table;
+}
+
+.list1-2 li {
+  display: table-cell;
+}
+.section-buttons {
+  text-align: center;
+}
+.button1-1 {
+  font-weight: 500;
+  font-family: "Roboto";
+  border-style: none;
+  background: #f5f4fa;
+}
+.button1-2 {
+  font-weight: 500;
+  font-family: "Roboto";
+  border-style: none;
+  background: #f5f4fa;
+}
+.button1-3 {
+  font-weight: 500;
+  font-family: "Roboto";
+  border-style: none;
+  background: #f5f4fa;
+}
+.button1-4 {
+  font-weight: 500;
+  font-family: "Roboto";
+  border-style: none;
+  background: #f5f4fa;
+}
+.button1-5 {
+  font-weight: 500;
+  font-family: "Roboto";
+  border-style: none;
+  background: #f5f4fa;
+}
+.button1-1:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-2:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-3:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-4:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-5:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-1:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-2:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-3:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-4:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+.button1-5:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+.figcaption1{
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #000;
 }
