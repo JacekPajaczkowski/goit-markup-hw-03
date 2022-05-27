@@ -187,7 +187,7 @@ body {
 }
 .footer-adress {
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.71;
 
   letter-spacing: 0.03em;
 
@@ -206,7 +206,7 @@ body {
 
   font-weight: 700;
   font-size: 26px;
-  line-height: 1;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-decoration: none;
@@ -270,4 +270,7 @@ body {
 }
 .logo-link1:focus {
   color: var(--brand-color);
+}
+.title:hover {
+  color: var(--black);
 }
