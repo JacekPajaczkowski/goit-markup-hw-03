@@ -1,19 +1,26 @@
+:root {
+  --white: #fff;
+  --brand-color: #2196f3;
+  --black: #000;
+  --shadow: #2f303a;
+  --shadow2: #212121;
+}
 body {
   color: #757575;
-  background: #ffffff;
+  background: var(--white);
   font-family: "Roboto", "raleway", sans-serif;
   font-weight: 400;
 }
 .header {
-  background: #ffffff;
+  background: var(--white);
 }
 .title {
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .headline4 {
   font-weight: 700;
   line-height: 1.17;
-  color: #000;
+  color: var(--black);
 }
 .logo-link {
   font-family: "Raleway";
@@ -22,11 +29,11 @@ body {
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #000;
+  color: var(--black);
   text-decoration: none;
 }
 .section1 {
-  background: #2f303a;
+  background: var(--shadow);
 }
 .headline1 {
   font-weight: 900;
@@ -37,7 +44,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: var(--white);
 }
 .list1 {
   font-weight: 500;
@@ -45,7 +52,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.02em;
   list-style: none;
-  color: #212121;
+  color: var(--shadow2);
   text-decoration: none;
 }
 .list1 li {
@@ -54,19 +61,19 @@ body {
 .list1-link {
   text-align: center;
   text-decoration: none;
-  color: #212121;
+  color: var(--shadow2);
 }
 
 .list1 :hover {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .list1 :focus {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .button1 {
-  background: #2196f3;
+  background: #var(--brand-color);
 
   cursor: pointer;
 
@@ -90,19 +97,19 @@ body {
   color: #757575;
 }
 .mail:hover {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .mail:focus {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .mail1:hover {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .mail1:focus {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .phone {
@@ -114,24 +121,24 @@ body {
   text-decoration: none;
 }
 .phone:hover {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .phone:focus {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .phone1:hover {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .phone1:focus {
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 
 .headline2 {
-  color: #000;
+  color: var(--black);
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -146,7 +153,7 @@ body {
   text-decoration: none;
 }
 .headline3 {
-  color: #000;
+  color: var(--black);
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -168,7 +175,7 @@ body {
 .figcaption {
   font-weight: 500;
   text-align: center;
-  color: #000;
+  color: var(--black);
   line-height: 1.17;
 }
 
@@ -176,7 +183,7 @@ body {
   background: #f5f4fa;
 }
 .footer1 {
-  background: #2f303a;
+  background: var(--shadow);
 }
 .footer-adress {
   font-size: 14px;
@@ -205,7 +212,7 @@ body {
   text-decoration: none;
 }
 .title1 {
-  color: #fff;
+  color: var(--white);
 }
 
 .section-buttons {
@@ -223,24 +230,24 @@ body {
 }
 
 .button1-1:hover {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--white);
+  background-color: var(--brand-color);
 }
 
 .button1-1:focus {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--white);
+  background-color: var(--brand-color);
 }
 
 .figcaption1 {
   font-family: "Roboto";
   font-weight: 700;
-  color: #000;
+  color: var(--black);
 }
 .figcaption2 {
   font-family: "Roboto";
   font-weight: 700;
-  color: #000;
+  color: var(--black);
   line-height: 2;
 }
 .figcaption2-text {
@@ -251,4 +258,16 @@ body {
 }
 .list1-2 {
   list-style: none;
+}
+.logo-link:hover {
+  color: var(--brand-color);
+}
+.logo-link1:hover {
+  color: var(--brand-color);
+}
+.logo-link:focus {
+  color: var(--brand-color);
+}
+.logo-link1:focus {
+  color: var(--brand-color);
 }
