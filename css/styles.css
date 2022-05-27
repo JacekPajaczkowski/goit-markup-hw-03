@@ -73,7 +73,7 @@ body {
   text-decoration: none;
 }
 .button1 {
-  background: #var(--brand-color);
+  background: var(--brand-color);
 
   cursor: pointer;
 
@@ -84,7 +84,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 .adres-list {
   line-height: 1.17;
@@ -191,7 +191,7 @@ body {
 
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 .mail1 {
   text-decoration: none;
@@ -208,7 +208,7 @@ body {
   font-size: 26px;
   line-height: 1;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--brand-color);
   text-decoration: none;
 }
 .title1 {
