@@ -1,20 +1,10 @@
 body {
-  margin: 0;
-  position: relative;
-  width: 1600px;
-  height: 2349px;
   color: #757575;
   background: #ffffff;
   font-family: "Roboto", "raleway", sans-serif;
   font-weight: 400;
 }
 .header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-
   background: #ffffff;
 }
 .title {
@@ -24,14 +14,8 @@ body {
   color: #000;
 }
 .logo-link {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-
   font-family: "Raleway";
-  font-style: normal;
+  
   font-weight: 700;
   font-size: 26px;
   line-height: 1;
@@ -40,21 +24,9 @@ body {
   text-decoration: none;
 }
 .section1 {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
   background: #2f303a;
 }
 .headline1 {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 170px;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1;
@@ -66,12 +38,6 @@ body {
   color: #ffffff;
 }
 .list1 {
-  position: absolute;
-  width: 254px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
@@ -79,20 +45,11 @@ body {
   list-style: none;
   color: #212121;
   text-decoration: none;
-
-  margin-block-start: 0em;
-  margin-block-end: 0em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;
-  display: table;
 }
 .list1 li {
   text-decoration: none;
-  display: table-cell;
 }
 .link {
-  float: left;
   text-align: center;
   text-decoration: none;
   color: #212121;
@@ -107,17 +64,10 @@ body {
   text-decoration: none;
 }
 .button1 {
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 350px;
-
   background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+
   cursor: pointer;
-  font-style: normal;
+  
   font-weight: 700;
   font-size: 16px;
   line-height: 1;
@@ -128,13 +78,7 @@ body {
   color: #ffffff;
 }
 .mail {
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
@@ -159,13 +103,7 @@ body {
   text-decoration: none;
 }
 .phone {
-  position: absolute;
-  width: 110px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
-  font-style: normal;
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 1;
@@ -190,13 +128,7 @@ body {
   color: #2196f3;
   text-decoration: none;
 }
-.section2 {
-  position: absolute;
-  width: 1600px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
-}
+
 .headline2 {
   color: #000;
   text-align: center;
@@ -206,11 +138,9 @@ body {
 .list2 {
   list-style: none;
   text-align: left;
-  display: table;
 }
 .list2 li {
   text-decoration: none;
-  display: table-cell;
 }
 .headline3 {
   color: #000;
@@ -220,57 +150,30 @@ body {
 }
 .list3 {
   list-style: none;
-  display: table;
 }
 .list3 li {
   text-decoration: none;
-  display: table-cell;
 }
 .list4 {
   text-align: center;
   list-style: none;
-  display: table;
 }
 .list4 li {
   text-decoration: none;
-  display: table-cell;
 }
 .figcaption {
   text-align: center;
   color: #000;
 }
-.section3 {
-  position: absolute;
-  width: 1170px;
-  height: 386px;
-  left: 215px;
-  top: 969px;
-}
-.section4 {
-  position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
 
+.section4 {
   background: #f5f4fa;
 }
 .footer1 {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
-
   background: #2f303a;
 }
 .footer-adress {
-  position: absolute;
-  width: 246px;
-  height: 81px;
-  left: 215px;
-  top: 111px;
-  font-style: normal;
+  
 
   font-size: 14px;
   line-height: 1;
@@ -288,14 +191,8 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .logo-link1 {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 60px;
-
   font-family: "Raleway";
-  font-style: normal;
+  
   font-weight: 700;
   font-size: 26px;
   line-height: 1;
@@ -306,21 +203,10 @@ body {
 .title1 {
   color: #fff;
 }
-.section1-1 {
-  position: absolute;
-  width: 1170px;
-  height: 1360px;
-  left: 215px;
-  top: 174px;
-}
-.list1-2 {
-  display: table;
-}
 
-.list1-2 li {
-  display: table-cell;
-}
 .section-buttons {
+  list-style: none;
+
   text-align: center;
 }
 .button1-1 {
@@ -346,3 +232,7 @@ body {
   font-weight: 700;
   color: #000;
 }
+.adres-list {
+  list-style: none;
+}
+.list1-2{list-style: none;}
