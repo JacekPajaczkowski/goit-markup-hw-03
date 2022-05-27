@@ -266,14 +266,20 @@ body {
   color: var(--brand-color);
 }
 .logo-link1:hover {
-  color: var(--brand-color);
+  color: var(--white);
 }
 .logo-link1:focus {
-  color: var(--brand-color);
+  color: var(--white);
 }
 .title:hover {
   color: var(--black);
 }
 .title1:hover {
-  color: var(--white);
+  color: var(--black);
+}
+.title:focus {
+  color: var(--black);
+}
+.title1:focus {
+  color: var(--black);
 }
