@@ -54,6 +54,7 @@ body {
   list-style: none;
   color: var(--shadow2);
   text-decoration: none;
+  display: flex;
 }
 .list1 li {
   text-decoration: none;
