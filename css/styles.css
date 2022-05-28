@@ -10,8 +10,14 @@ body {
   background: var(--white);
   font-family: "Roboto", "raleway", sans-serif;
   font-weight: 400;
+  margin: 0.0;
+}
+.container {width: 1200px;
 }
 .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
   background: var(--white);
 }
 .title {
@@ -46,6 +52,7 @@ body {
 
   color: var(--white);
 }
+
 .list1 {
   font-weight: 500;
   font-size: 14px;
@@ -55,12 +62,13 @@ body {
   color: var(--shadow2);
   text-decoration: none;
   display: flex;
+  justify-content: space-between;
 }
-.list1 li {
-  text-decoration: none;
+.navigation {
+  display: flex;
+  justify-content: space-between;
 }
 .list1-link {
-  text-align: center;
   text-decoration: none;
   color: var(--shadow2);
 }
@@ -88,6 +96,7 @@ body {
   color: var(--white);
 }
 .adres-list {
+  display: flex;
   line-height: 1.17;
 }
 .mail {
@@ -149,6 +158,7 @@ body {
   list-style: none;
   text-align: left;
   line-height: 1.17;
+  display: flex;
 }
 .list2 li {
   text-decoration: none;
@@ -162,6 +172,7 @@ body {
 }
 .list3 {
   list-style: none;
+  display: flex;
 }
 .list3 li {
   text-decoration: none;
@@ -169,6 +180,7 @@ body {
 .list4 {
   text-align: center;
   list-style: none;
+  display: flex;
 }
 .list4 li {
   text-decoration: none;
@@ -220,6 +232,8 @@ body {
   list-style: none;
 
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .button1-1 {
   font-weight: 500;
@@ -259,6 +273,9 @@ body {
 }
 .list1-2 {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc(100% / 3 - 430px);
 }
 .logo-link:hover {
   color: var(--brand-color);
@@ -272,4 +289,3 @@ body {
 .logo-link1:focus {
   color: var(--white);
 }
-
