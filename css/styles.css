@@ -10,15 +10,19 @@ body {
   background: var(--white);
   font-family: "Roboto", "raleway", sans-serif;
   font-weight: 400;
-  margin: 0.0;
+  margin: 0;
 }
-.container {width: 1200px;
+.container {
+  width: 1600px;
 }
 .header {
+  height: 80px;
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
+  align-items: center;
   background: var(--white);
+  border-bottom: 1px;
+  border: #ececec;
 }
 .title {
   color: var(--brand-color);
@@ -39,7 +43,12 @@ body {
   text-decoration: none;
 }
 .section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: var(--shadow);
+  height: 600px;
 }
 .headline1 {
   font-weight: 900;
@@ -51,6 +60,7 @@ body {
   text-transform: uppercase;
 
   color: var(--white);
+  margin: 0;
 }
 
 .list1 {
@@ -63,10 +73,12 @@ body {
   text-decoration: none;
   display: flex;
   justify-content: space-between;
+  padding-left: 0;
+  width: 254px;
 }
 .navigation {
+  width: 254px;
   display: flex;
-  justify-content: space-between;
 }
 .list1-link {
   text-decoration: none;
@@ -94,10 +106,24 @@ body {
   letter-spacing: 0.06em;
 
   color: var(--white);
+  border-radius: 4px;
+  border-style: none;
+  height: 50px;
+  width: 200px;
 }
 .adres-list {
   display: flex;
+  justify-content: space-between;
   line-height: 1.17;
+  width: 295px;
+  padding-left: 0%;
+}
+.footer-adres-list {
+  line-height: 1.17;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 0%;
 }
 .mail {
   font-weight: 500;
@@ -159,6 +185,8 @@ body {
   text-align: left;
   line-height: 1.17;
   display: flex;
+  justify-content: space-around;
+  padding-left: 0%;
 }
 .list2 li {
   text-decoration: none;
@@ -173,6 +201,8 @@ body {
 .list3 {
   list-style: none;
   display: flex;
+  justify-content: space-around;
+  padding-left: 0%;
 }
 .list3 li {
   text-decoration: none;
@@ -181,9 +211,18 @@ body {
   text-align: center;
   list-style: none;
   display: flex;
+  justify-content: space-around;
+  padding-left: 0%;
 }
 .list4 li {
   text-decoration: none;
+  background-color: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.figure {
+  margin: 0.0;
 }
 .figcaption {
   font-weight: 500;
@@ -194,9 +233,15 @@ body {
 
 .section4 {
   background: #f5f4fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .footer1 {
   background: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .footer-adress {
   font-size: 14px;
@@ -205,6 +250,8 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--white);
+  display: flex;
+  flex-direction: column;
 }
 .mail1 {
   text-decoration: none;
@@ -234,6 +281,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  padding-left: 0%;
 }
 .button1-1 {
   font-weight: 500;
@@ -242,16 +290,24 @@ body {
   background: #f5f4fa;
   cursor: pointer;
   line-height: 1.62;
+  border-radius: 0px 0px 4px 4px;
+  padding: 6px 22px 6px 22px;
 }
 
 .button1-1:hover {
   color: var(--white);
   background-color: var(--brand-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .button1-1:focus {
   color: var(--white);
   background-color: var(--brand-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .figcaption1 {
@@ -271,11 +327,20 @@ body {
 .adres-list {
   list-style: none;
 }
+.portfolio-section{
+  display: flex;
+  
+  justify-content: center;
+}
 .list1-2 {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(100% / 3 - 430px);
+  padding-left: 0%;
+}
+.list1-2-figure{
+  background: #FFFFFF;
+border: 1px solid #EEEEEE;
 }
 .logo-link:hover {
   color: var(--brand-color);
