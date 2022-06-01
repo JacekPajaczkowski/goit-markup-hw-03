@@ -247,7 +247,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   padding-bottom: 94px;
-}
+  }
 .footer1 {
   height: 252px;
   background: var(--shadow);
