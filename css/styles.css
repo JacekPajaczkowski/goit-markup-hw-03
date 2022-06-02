@@ -22,6 +22,7 @@ body {
   height: 80px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background: var(--white);
   border-bottom: 1px;
   border: #ececec;
@@ -43,7 +44,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--black);
   text-decoration: none;
-  margin-left: 215px;
 }
 .section1 {
   height: 600px;
@@ -81,7 +81,6 @@ body {
   justify-content: space-between;
   padding-left: 0;
   width: 254px;
-  margin-left: 93px;
 }
 .navigation {
   display: flex;
@@ -116,13 +115,13 @@ body {
   border-style: none;
   height: 50px;
   width: 200px;
+  margin-top: 30px;
 }
 .adres-list {
   display: flex;
   justify-content: space-between;
   line-height: 1.17;
   padding-left: 0%;
-  margin-left: 371px;
 }
 .footer-adres-list {
   list-style: none;
@@ -249,15 +248,14 @@ body {
   padding-bottom: 94px;
 }
 .footer1 {
-  height: 252px;
-  background: var(--shadow);
+    background: var(--shadow);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .footer-adress {
-  margin-left: 215px;
-  font-size: 14px;
+  margin-top: 20px;
+    font-size: 14px;
   line-height: 1.71;
 
   letter-spacing: 0.03em;
@@ -283,8 +281,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-decoration: none;
-  margin-left: 215px;
-}
+    }
 .title1 {
   color: var(--white);
 }
@@ -383,3 +380,15 @@ body {
 .img {
   display: block;
 }
+.adres-list li:first-child {
+  margin-right: 50px;
+}
+.footer-adres-list li {
+  margin-bottom: 9px;
+}
+ul{margin: 0.0.0.0;
+padding: 0.0.0.0;}
+h1{margin: 0.0.0.0;
+padding: 0.0.0.0;}
+h2{margin: 0.0.0.0;
+padding: 0.0.0.0;}
