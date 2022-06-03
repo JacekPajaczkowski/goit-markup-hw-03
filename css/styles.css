@@ -18,11 +18,12 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.header {
+.header>.container {
   height: 80px;
   display: flex;
   align-items: center;
-
+}
+.header{
   background: var(--white);
   border-bottom: 1px solid #ececec;
 }
@@ -44,7 +45,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--black);
   text-decoration: none;
-  margin-left: 215px;
+  
 }
 .section1 {
   height: 600px;
@@ -283,8 +284,7 @@ body {
   color: var(--white);
   display: flex;
   flex-direction: column;
-  margin-left: 215px;
-}
+  }
 .mail1 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
@@ -302,7 +302,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--brand-color);
   text-decoration: none;
-  margin-left: 215px;
+  
 }
 .title1 {
   color: var(--white);
